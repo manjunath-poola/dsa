@@ -31,9 +31,9 @@ public class AddTwoNumbers {
     public static void main(String[] args) {
 //     l1= [2,4,3], l2 = [5,6,4]
         ListNode l1 = new ListNode(2);
-        ListNode l11 = new ListNode(3);
+        ListNode l11 = new ListNode(4);
         l1.next = l11;
-        l11.next = new ListNode(4);
+        l11.next = new ListNode(3);
         ListNode l2 = new ListNode(5);
         ListNode l21 = new ListNode(6);
         l2.next = l21;
